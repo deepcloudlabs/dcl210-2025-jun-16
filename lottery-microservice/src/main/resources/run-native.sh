@@ -1,0 +1,1 @@
+./start.sh target/lottery-microservice 3300 "numbers?max=60&size=6"

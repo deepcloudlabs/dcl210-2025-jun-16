@@ -1,0 +1,1 @@
+./start.sh "java -Dserver.port=4400 -jar ./target/lottery-microservice-0.0.1.jar" 4400 "numbers?max=60&size=6"
