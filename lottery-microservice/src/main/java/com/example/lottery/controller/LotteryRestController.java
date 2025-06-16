@@ -23,7 +23,6 @@ public class LotteryRestController {
 
 	@GetMapping(params = { "max", "size" })
 	public LotteryModel getLotteryNumbers(@RequestParam int max, @RequestParam int size) {
-		var begin = System.currentTimeMillis();
 		var lotteryNumbers = lotteryService.draw(max, size);
 		System.err.println("New get request has been received: %d,%d".formatted(max,size));
 		return lotteryNumbers;
