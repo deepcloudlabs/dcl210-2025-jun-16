@@ -2,6 +2,7 @@ package com.example.javase07;
 
 public class Exercise01 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		int x = 1_000_000; // decimal
 		int y = 1_0_0_0____0_0_0;

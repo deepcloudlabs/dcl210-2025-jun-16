@@ -1,6 +1,7 @@
 package com.example.javase07;
 
 public class Exercise12 {
+	@SuppressWarnings("finally")
 	public static int fun() {
 		try {
 			return 42;
@@ -8,6 +9,7 @@ public class Exercise12 {
 			return 108;
 		}
 	}
+	@SuppressWarnings("finally")
 	public static int gun() {
 		try {
 			throw new Exception("Oooopsss");

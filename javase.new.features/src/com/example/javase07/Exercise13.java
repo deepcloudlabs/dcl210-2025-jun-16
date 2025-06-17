@@ -1,6 +1,7 @@
 package com.example.javase07;
 
 public class Exercise13 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
 		// try-with-resources

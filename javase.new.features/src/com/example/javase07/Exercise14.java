@@ -6,6 +6,7 @@ import java.util.TreeMap;
 
 public class Exercise14 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Map<String,Map<String,List<Object>>> cache = new TreeMap<>(); // Diamond Operator
 

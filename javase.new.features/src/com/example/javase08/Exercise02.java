@@ -2,6 +2,7 @@ package com.example.javase08;
 
 public class Exercise02 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		// imperative programming: procedural/OO
 		// loops: for, while

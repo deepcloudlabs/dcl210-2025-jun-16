@@ -1,6 +1,7 @@
 package com.example.javase07;
 
 public class Exercise08 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Shape shape = new ColorfulCircle(125,"red");
 		if (shape instanceof ColorfulCircle colorfulCircle) {
@@ -24,7 +25,7 @@ public class Exercise08 {
 			case Circle circle when circle.getRadius() > 100.0 -> {
 				
 			}
-			case Square quare -> {}
+			case Square square -> {}
 			default ->{
 				throw new IllegalArgumentException("This is not a shape");			
 			}

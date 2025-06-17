@@ -2,6 +2,7 @@ package com.example.javase08;
 
 public class Exercise01 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		AAA aRef1 = new BBB();
 		AAA aRef2 = new CCC();

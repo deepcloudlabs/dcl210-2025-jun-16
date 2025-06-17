@@ -19,6 +19,9 @@ public class Exercise10 {
 
 }
 
+@SuppressWarnings("serial")
 class E1 extends Exception {} // Checked/Business Exception
+@SuppressWarnings("serial")
 class E2 extends E1 {} // Checked/Business Exception
+@SuppressWarnings("serial")
 class E3 extends E2 {} // Checked/Business Exception
