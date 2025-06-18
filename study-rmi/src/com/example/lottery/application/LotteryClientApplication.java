@@ -10,9 +10,9 @@ import com.example.lottery.service.LotteryService;
 public class LotteryClientApplication {
 
 	public static void main(String[] args) throws MalformedURLException, RemoteException, NotBoundException {
-		LotteryService lotteryService = (LotteryService) Naming.lookup("rmi://localhost:8800/LotteryService");
+		LotteryService lotteryService = (LotteryService) Naming.lookup("rmi://localhost:8800/lottery/LotteryService");
 		for (int i = 0; i < 100; ++i) {
-			System.out.println(lotteryService.draw(60+i, 6+i).getNumbers());
+			System.out.println(lotteryService.draw(60, 6).getNumbers());
 		}
 	}
 

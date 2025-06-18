@@ -13,7 +13,7 @@ public class LotteryAppServer {
 	public static void main(String[] args) throws RemoteException {
 		StandardLotteryService lotteryService = new StandardLotteryService();
 		Registry registry = LocateRegistry.getRegistry(8800);
-        registry.rebind("LotteryService", lotteryService);
+        registry.rebind("lottery/LotteryService", lotteryService);
         System.err.println("Lottery RMI Service is running.");
 	}
 
