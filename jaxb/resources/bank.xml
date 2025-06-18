@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<banka>
+    <musteriler>
+        <musteri ad="Jane" soyad="Simms">
+            <hesaplar>
+                <VadeliMevduatHesabi faizOrani="0.05">
+                    <bakiye>500.0</bakiye>
+                </VadeliMevduatHesabi>
+                <KrediliMevduatHesabi>
+                    <bakiye>200.0</bakiye>
+                    <overdraftAmount>400.0</overdraftAmount>
+                </KrediliMevduatHesabi>
+            </hesaplar>
+        </musteri>
+        <musteri ad="Owen" soyad="Bryant">
+            <hesaplar>
+                <KrediliMevduatHesabi>
+                    <bakiye>200.0</bakiye>
+                    <overdraftAmount>0.0</overdraftAmount>
+                </KrediliMevduatHesabi>
+            </hesaplar>
+        </musteri>
+        <musteri ad="Tim" soyad="Soley">
+            <hesaplar>
+                <VadeliMevduatHesabi faizOrani="0.05">
+                    <bakiye>1500.0</bakiye>
+                </VadeliMevduatHesabi>
+                <KrediliMevduatHesabi>
+                    <bakiye>200.0</bakiye>
+                    <overdraftAmount>0.0</overdraftAmount>
+                </KrediliMevduatHesabi>
+            </hesaplar>
+        </musteri>
+        <musteri ad="Maria" soyad="Soley">
+            <hesaplar>
+                <KrediliMevduatHesabi>
+                    <bakiye>200.0</bakiye>
+                    <overdraftAmount>0.0</overdraftAmount>
+                </KrediliMevduatHesabi>
+                <VadeliMevduatHesabi faizOrani="0.05">
+                    <bakiye>150.0</bakiye>
+                </VadeliMevduatHesabi>
+            </hesaplar>
+        </musteri>
+    </musteriler>
+</banka>
