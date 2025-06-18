@@ -45,7 +45,7 @@ public class Bank {
 	}
 
 	@XmlElementWrapper(name="musteriler")
-	@XmlElementRefs({ @XmlElementRef(type = Customer.class), }
+	@XmlElementRefs({ @XmlElementRef(type = Customer.class) }
 	// Above are the concrete impl'ns of SourceBrightness
 	)
 	public List<Customer> getCustomers() {

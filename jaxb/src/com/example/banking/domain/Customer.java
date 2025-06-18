@@ -3,6 +3,8 @@ package com.example.banking.domain;
 import java.util.LinkedList;
 import java.util.List;
 
+import javax.xml.bind.annotation.XmlElement;
+
 import jakarta.xml.bind.annotation.XmlAttribute;
 import jakarta.xml.bind.annotation.XmlElementRef;
 import jakarta.xml.bind.annotation.XmlElementRefs;
@@ -16,7 +18,7 @@ import jakarta.xml.bind.annotation.XmlRootElement;
  * @author Binnur Kurt (binnur.kurt@gmail.com)
  */
 @XmlRootElement(name = "musteri")
-public class Customer {
+public class Customer { // <musteri ad="">
 	private String firstName;
 	private String lastName;
 	private List<Account> accounts;
@@ -40,7 +42,7 @@ public class Customer {
 		this.firstName = firstName;
 	}
 
-	@XmlAttribute(name = "soyad")
+	@XmlElement(name = "soyad")
 	public String getLastName() {
 		return lastName;
 	}

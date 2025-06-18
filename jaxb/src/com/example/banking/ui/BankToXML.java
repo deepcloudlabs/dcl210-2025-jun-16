@@ -46,9 +46,10 @@ public class BankToXML {
 			Marshaller m = jc.createMarshaller();
 			m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
-			m.marshal(bank, new File("resources", "bank.xml"));
+			m.marshal(bank, new File("resources", "isbank.xml"));
 		} catch (Exception e) {
 			System.err.println(e.getMessage());
+			e.printStackTrace(System.err);
 		}
 	}
 

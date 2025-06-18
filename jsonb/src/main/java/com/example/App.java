@@ -17,7 +17,7 @@ public class App {
 	public static void main(String[] args) {
 		JsonbConfig config = 
 			new JsonbConfig().withPropertyNamingStrategy(
-			  PropertyNamingStrategy.UPPER_CAMEL_CASE
+			  PropertyNamingStrategy.LOWER_CASE_WITH_UNDERSCORES
 			).withNullValues(false)
 			.withLocale(Locale.of("tr","TR"))
 			.withPropertyOrderStrategy(PropertyOrderStrategy.LEXICOGRAPHICAL)

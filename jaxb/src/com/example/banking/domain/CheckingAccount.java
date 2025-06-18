@@ -42,7 +42,6 @@ public class CheckingAccount extends Account {
 		}
 	}
 
-	@XmlElementRef(name = "krediMiktari")
 	public double getOverdraftAmount() {
 		return overdraftAmount;
 	}

@@ -23,7 +23,7 @@ public class BankFromXML {
 			JAXBContext jc = JAXBContext.newInstance(Bank.class);
 			Bank bank = Bank.getBank();
 			Unmarshaller u = jc.createUnmarshaller();
-			bank = (Bank) u.unmarshal(new File("resources", "bank.xml"));
+			bank = (Bank) u.unmarshal(new File("resources", "isbank.xml"));
 			bank.getCustomers().forEach( PRINT_CUSTOMER.andThen(PRINT_CUSTOMER_ACCOUNTS) );
 		} catch (JAXBException ex) {
 			ex.printStackTrace(System.err);
