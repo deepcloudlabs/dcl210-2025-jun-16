@@ -1,6 +1,5 @@
 package com.example.banking.domain;
 
-import jakarta.xml.bind.annotation.XmlElementRef;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
 /**

@@ -1,10 +1,10 @@
 package com.example;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Exercise01 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		int x = 42; // 4-Byte
 		Integer y = 542; // y: reference variable -> 8-Byte -> -XX:+CompressedOops -> 4-Byte
